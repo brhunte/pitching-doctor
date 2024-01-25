@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Pitch Doctor</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">The Pitch Doctor</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <h1 class = "title">Contact</h1>
+    <div class="form-container">
+        <form action="mailto:brhunte@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" cols="20" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" cols="20" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="10" cols="20" required></textarea>
+
+            <input type="submit" value="Send Email">
+        </form>
+    </div>
+    
+</body>
+</html>

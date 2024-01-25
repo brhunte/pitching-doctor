@@ -1,0 +1,187 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+p {
+    color: rgb(85, 85, 85)
+}
+
+
+
+/* NAVIGATION */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: rgb(181, 181, 181
+    );
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+/* SECTOINS */
+
+section  {
+    padding-bottom: 20vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+#profile {
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_pic-container2 {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 15%;
+}
+
+.section_text {
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p {
+    font-weight: 600;
+}
+
+.section_text_p1{
+    text-align: center;
+}
+
+.section_text_p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align:  center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.details-container {
+    display: flex;
+    padding-left: 17rem;
+    padding-top: 1rem;
+    white-space: pre;
+    text-align: left;
+}
+
+.form-container {
+    display: flex;
+    padding-top: 1rem;
+    white-space: pre;
+    margin: auto;
+    width: 640px; 
+    padding: 50px; 
+}
+
+.about {
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+textarea {
+    width: 800px;
+}
+input {
+    width: 800px;
+}
+
+/* ICONS/BUTTONS */
+
+.icon{
+    cursor:pointer;
+    height: 2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width:  8rem;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    color: black;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    color: lightgreen;
+}
+
